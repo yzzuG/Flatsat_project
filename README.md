@@ -1,7 +1,13 @@
 # FlatSat project ENSIL-ENSCI
 ## Introduction
 
-What can I find in this file
+This project's main goal is to develop the Space world within engineering school. For this purpose, the Easy Space association has provided an educational kit including a micro-satellite, the FlatSat, which has been studied by explaining the different functions of the electronic cards present. They aim to illustrate the main functions of a satellite, namely energy management, data collection, telecommunications and coordination.
+
+Two telecommincations modes were studied to communicate data to a ground base, WiFi and LoRa. The Arduino IDE was used to program the Heltec card to retrieve data from the sensors and etablish a wireless link with the computer.The Wifi connection allowed data to be sent faster but over a shorter distance than LoRa. All data was retrieved as a text file for processing in a Matlab script.
+
+Finally, a structure to include the FlatSat in a cubi form on a drone was developed. This structure made it possible to carry out measurements on the drone, using the previous telecommunication modes.
+
+Here, you can find a tutorial to configure the Arduino IDE for Heltec and MK1300 WAN card.
 
 -----
 
